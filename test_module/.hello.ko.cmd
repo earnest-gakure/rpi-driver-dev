@@ -1,0 +1,1 @@
+savedcmd_/home/earnest/rpi-driver-dev/test_module/hello.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/earnest/rpi-driver-dev/test_module/hello.ko /home/earnest/rpi-driver-dev/test_module/hello.o /home/earnest/rpi-driver-dev/test_module/hello.mod.o;  true

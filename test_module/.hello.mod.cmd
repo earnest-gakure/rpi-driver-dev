@@ -1,0 +1,1 @@
+savedcmd_/home/earnest/rpi-driver-dev/test_module/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/earnest/rpi-driver-dev/test_module/"$$0) }' > /home/earnest/rpi-driver-dev/test_module/hello.mod
