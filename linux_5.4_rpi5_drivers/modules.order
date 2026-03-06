@@ -1,2 +1,3 @@
 /home/earnest/rpi-driver-dev/linux_5.4_rpi5_drivers/helloworld_rpi5.o
 /home/earnest/rpi-driver-dev/linux_5.4_rpi5_drivers/helloworld_rpi5_with_parameters.o
+/home/earnest/rpi-driver-dev/linux_5.4_rpi5_drivers/helloworld_rpi5_char_driver.o
