@@ -1,4 +1,4 @@
-obj-m := helloworld_rpi5.o helloworld_rpi5_with_parameters.o helloworld_rpi5_char_driver.o helloworld_rpi5_class_driver.o 
+obj-m := helloworld_rpi5.o helloworld_rpi5_with_parameters.o helloworld_rpi5_char_driver.o helloworld_rpi5_class_driver.o misc_rpi5_driver.o 
 KERNEL_DIR ?= $(HOME)/rpi-driver-dev/linux
 all:
 	make -C $(KERNEL_DIR) ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- M=$(PWD) modules

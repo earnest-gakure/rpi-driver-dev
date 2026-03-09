@@ -1,0 +1,1 @@
+savedcmd_/home/earnest/rpi-driver-dev/linux_5.4_rpi5_drivers/misc_rpi5_driver.mod := printf '%s\n'   misc_rpi5_driver.o | awk '!x[$$0]++ { print("/home/earnest/rpi-driver-dev/linux_5.4_rpi5_drivers/"$$0) }' > /home/earnest/rpi-driver-dev/linux_5.4_rpi5_drivers/misc_rpi5_driver.mod
