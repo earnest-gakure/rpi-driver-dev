@@ -1,0 +1,1 @@
+savedcmd_/home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_hellokeys/hellokeys_rpi5.mod := printf '%s\n'   hellokeys_rpi5.o | awk '!x[$$0]++ { print("/home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_hellokeys/"$$0) }' > /home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_hellokeys/hellokeys_rpi5.mod

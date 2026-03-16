@@ -1,0 +1,1 @@
+savedcmd_/home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_hellokeys/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_hellokeys/Module.symvers -T /home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_hellokeys/modules.order -i Module.symvers -e 
