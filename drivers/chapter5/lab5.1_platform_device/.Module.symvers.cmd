@@ -1,0 +1,1 @@
+savedcmd_/home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_platform_device/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_platform_device/Module.symvers -T /home/earnest/rpi-driver-dev/drivers/chapter5/lab5.1_platform_device/modules.order -i Module.symvers -e 
