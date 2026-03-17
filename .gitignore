@@ -1,0 +1,70 @@
+# Compiled kernel modules
+*.ko
+*.o
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+
+# Compiled files
+*.a
+*.so
+*.exe
+
+# Build artifacts
+*.dtb
+*.dtbo
+
+# Backup files
+*.backup
+*.bak
+*.old
+*~
+*.swp
+*.swo
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Specific directories to ignore
+linux_5.4_rpi5_drivers.OLD/
+test_module/*.ko
+test_module/*.o
+test_module/*.mod*
+test_module/modules.order
+test_module/Module.symvers
+
+# Keep only source files in drivers/
+drivers/**/*.ko
+drivers/**/*.o
+drivers/**/*.mod
+drivers/**/*.mod.c
+drivers/**/*.mod.o
+drivers/**/modules.order
+drivers/**/Module.symvers
+drivers/**/.tmp_versions/
+
+# Compiled apps
+drivers/**/apps/ioctl_test
+drivers/**/apps/test_app
+
+# Linux kernel build artifacts (if you ever commit kernel source)
+linux/.config
+linux/vmlinux
+linux/System.map
+linux/arch/*/boot/Image
+linux/arch/*/boot/zImage
+linux/arch/*/boot/dts/**/*.dtb
+linux/arch/*/boot/dts/**/*.dtbo
+
